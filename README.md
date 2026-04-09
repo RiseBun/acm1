@@ -1,6 +1,6 @@
-# Grounded Defect Explanation with Multimodal Consistency Learning
+# Multimodal Consistency Learning for Controlled Grounded Industrial Defect Explanation
 
-This repository contains the implementation for **Grounded Defect Explanation with Multimodal Consistency Learning**, submitted to ACM Multimedia.
+This repository contains the implementation for **Multimodal Consistency Learning for Controlled Grounded Industrial Defect Explanation**, submitted to ACM Multimedia.
 
 ## Overview
 
@@ -256,10 +256,10 @@ If you find this work useful, please cite:
 
 ```bibtex
 @inproceedings{your_acm_mm_paper,
-  title={Grounded Defect Explanation with Multimodal Consistency Learning},
+  title={Multimodal Consistency Learning for Controlled Grounded Industrial Defect Explanation},
   author={Your Names},
   booktitle={ACM Multimedia},
-  year={2024}
+  year={2026}
 }
 ```
 
