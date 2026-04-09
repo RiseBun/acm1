@@ -1,0 +1,11 @@
+K: 8
+clip_model: ViT-B-16
+clip_pretrained: laion400m_e32
+loc_hidden_dim: 256
+loc_refine_channels: 64
+num_defect_type: 6
+num_location: 4
+num_presence: 2
+r_suppress: 2
+suppress_alpha: 0.1
+variant: ours

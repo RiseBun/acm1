@@ -1,0 +1,17 @@
+batch_size: 64
+checkpoint_dir: outputs/checkpoints
+device: cuda
+epochs: 5
+lambda_cons: 0.2
+lambda_cons_max: 0.3
+lambda_cons_min: 0.1
+lambda_txt: 0.5
+log_dir: outputs/logs
+lr: 0.0005
+num_workers: 8
+save_every: 20
+seed: 42
+stage1_epochs: 2
+stage2_epochs: 3
+use_amp: true
+weight_decay: 0.0001

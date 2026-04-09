@@ -1,0 +1,22 @@
+# MVTec AD root directory (must contain category subfolders, e.g. bottle/, cable/, ...)
+root: /path/to/mvtec/ad/dataset
+
+# null = all 15 categories; or list e.g. ["bottle", "cable"]
+categories: null  # 全部 15 类
+
+image_size: 224
+
+# For this project, the default protocol is a supervised split over the official
+# test set so the method can learn from anomaly masks and structured explanations.
+# Use `official_unsupervised` only if you intentionally want the original MVTec split.
+protocol: supervised_test_split
+
+# Split ratios inside each test subfolder (good / each defect type).
+train_ratio: 0.6
+val_ratio: 0.2
+
+# When protocol=supervised_test_split, optionally keep official train/good images
+# as additional normal-only training samples.
+include_train_good_in_train: true
+
+seed: 42

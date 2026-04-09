@@ -1,0 +1,21 @@
+# VisA dataset configuration (MVTec-like format after conversion)
+# 使用 tools/convert_visa.py 转换后的目录
+
+root: /path/to/visa/dataset
+
+# null = 全部 12 类; 或指定列表如 ["candle", "capsules"]
+categories: null
+
+image_size: 224
+
+# 使用 supervised_test_split 协议 (与 MVTec AD 相同)
+protocol: supervised_test_split
+
+# 分割比例
+train_ratio: 0.6
+val_ratio: 0.2
+
+# VisA 没有官方 train/good，设为 false
+include_train_good_in_train: false
+
+seed: 42

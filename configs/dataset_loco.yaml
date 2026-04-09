@@ -1,0 +1,21 @@
+# MVTec LOCO 数据集配置
+# 包含 structural 和 logical anomalies
+
+root: /path/to/mvtec/loco/dataset
+
+# null = 全部 5 类; 或指定列表如 ["breakfast_box", "juice_bottle"]
+categories: null
+
+image_size: 224
+
+# 使用 supervised_test_split 协议
+protocol: supervised_test_split
+
+# 分割比例
+train_ratio: 0.6
+val_ratio: 0.2
+
+# 包含官方 train/good 图像
+include_train_good_in_train: true
+
+seed: 42

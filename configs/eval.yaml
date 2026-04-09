@@ -1,0 +1,8 @@
+batch_size: 16
+num_workers: 4
+device: cuda
+
+checkpoint: outputs/checkpoints/latest.pt
+
+# AUPRO integration limit (standard MVTec protocol uses 0.3)
+max_fpr: 0.3
